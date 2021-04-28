@@ -14,6 +14,11 @@ Aplicación desarrollada con Spring Boot que provee servicios Rest para registra
 ## Swagger
 http://localhost:8888/netactica/swagger-ui.html#/
 
+## Docker
+
+	mvn clean install
+	docker build -t api_tickets_vuelos .
+	docker run --name container_api_tickets_vuelos -p 8888:8888 -t api_tickets_vuelos
 
 # CONSIGNA 
 

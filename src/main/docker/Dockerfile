@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-buster
 
-MAINTAINER Sebastian Torres sa.torres@ymail.com
+MAINTAINER Sebastian Torres stafoxter@gmail.com
 
 ENV ENV_NAME local
 ENV BOOTAPP_JAVA_OPTS -Xms256 -Xmx256m
