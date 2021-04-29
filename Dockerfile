@@ -5,6 +5,6 @@ EXPOSE $SERVER_PORT
 
 RUN mkdir -p /software
 
-ADD target/*.jar /software/springBootService.jar
+ADD target/*.jar /app/api_tickets_vuelos.jar
 
-CMD java -Dserver.port=$SERVER_PORT $JAVA_OPTS -jar /software/springBootService.jar
+CMD java -Dserver.port=$SERVER_PORT $JAVA_OPTS -jar /app/api_tickets_vuelos.jar

@@ -1,3 +1,7 @@
+# Maven
+target/
+dist/
+
 # Compiled class file
 *.class
 
